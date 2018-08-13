@@ -1,4 +1,6 @@
-# codingexercise
+# Coding Exercise
+
+Design a tool to capture the skills for 10K software developers. The skills can be for a specific software coding language or functional skills like: project management, scrum master, DBA, etc. Provide a way for UI for enter data and searching the data using various filter / search criteria.
 
 ## Architecture 
 
@@ -6,8 +8,8 @@
 
 ## Back End
 
-NodeJS
+NodeJS. I have a node backend that will serve the message board Web API. This API will allow users to post new messages. These messages will get stored in memory on the server in order to persist. The API will also allow us to serve all of the messages that have been added by any user
   
 ## Front End
 
-Angular 6
+Angular 6. With Angular, I can make requests to the backend to post a new message using the custom new message component.
