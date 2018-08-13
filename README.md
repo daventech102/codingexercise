@@ -13,3 +13,28 @@ NodeJS. I have a node back-end that will serve the message board Web API. This A
 ## Front-End
 
 Angular 6. With Angular, I can make requests to the back-end to post a new message using the custom new message component.
+
+# How to set up the app
+
+#### Install Node 
+#### Install NPM
+#### Install Angular Cli: 
+  npm install -g @angular/cli
+
+#### Install Angular Materials framework:
+	npm install --save @angular/material @angular/cdk @angular/animations
+  
+#### Install Node Express package: 
+  npm install express --save
+  
+#### Run Node server: 
+  node ./server.js
+  
+#### Install nodemon: 
+  npm install  -g nodemon
+
+#### Install body parser: 
+  npm install --save body-parser
+  
+#### Install jsontoken: 
+ npm install jsonwebtoken--save
