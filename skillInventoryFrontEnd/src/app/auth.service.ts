@@ -30,10 +30,10 @@ export class AuthService {
 
   login(loginData) {
     this.http.post(this.BASE_URL + '/login', loginData).subscribe(res => {
-        console.log(res.json().success);
+        console.log(res.json());
         this.authenticate(res);
-        if (res.json().success === false){
-          alert("incorrect password or email");}
+        // if (res.json().success === false){
+        //   alert("incorrect password or email");}
         //   var htmlToAdd:string;
          
         //     var d1 = this.elementRef.nativeElement.querySelector('#login');
