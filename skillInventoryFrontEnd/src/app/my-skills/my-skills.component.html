@@ -1,0 +1,12 @@
+
+<mat-card class="card">
+        <h3 *ngIf="!auth.isAuthenticated">Please login or Register before enter your skills</h3>
+        <mat-card-content *ngIf="auth.isAuthenticated">
+            <mat-form-field class="example-full-width">
+                <textarea [(ngModel)]="message.text" matInput placeholder="Enter your skills separated by ,"></textarea>
+            </mat-form-field>
+            <mat-card-actions>
+                    <a href="/" ><button  (click)="post()"  mat-button color="primary" >Submit  skills</button></a>
+            </mat-card-actions>
+        </mat-card-content>
+</mat-card>

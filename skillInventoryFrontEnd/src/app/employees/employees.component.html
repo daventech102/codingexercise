@@ -1,0 +1,15 @@
+<mat-card class="card" >
+<mat-form-field class="example-full-width">
+      <div class="form-label" *ngIf="query">
+            
+      </div>
+      <input matInput [(ngModel)]="query" placeholder="search" type="text">
+</mat-form-field>
+</mat-card>
+
+<div *ngFor="let message of (webapiService.messages | async | searchEmployees:query) "> 
+      <mat-card class="card">
+      <mat-card-title [routerLink]="['/employees', message.owner]" style="cursor: pointer">{{message.owner}}</mat-card-title>
+      <mat-card-content>{{message.text}}</mat-card-content>
+      </mat-card>
+</div>

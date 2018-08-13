@@ -1,0 +1,9 @@
+<mat-card class="card">
+    <mat-form-field class="example-full-width">
+        <input matInput [(ngModel)]="model.firstName" placeholder="First Name">
+    </mat-form-field>
+    <mat-form-field class="example-full-width">
+        <input matInput [(ngModel)]="model.lastName" placeholder="Last Name">
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="saveUser(model)">Save Changes</button>
+</mat-card>
