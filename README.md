@@ -6,10 +6,10 @@ Design a tool to capture the skills for 10K software developers. The skills can 
 
 [click here](https://www.dropbox.com/s/y8uz3y7dtol9iie/Screen%20Shot%202018-08-13%20at%205.53.22%20AM.png?dl=0)
 
-## Back End
+## Back-End
 
-NodeJS. I have a node backend that will serve the message board Web API. This API will allow users to post new messages. These messages will get stored in memory on the server in order to persist. The API will also allow us to serve all of the messages that have been added by any user
+NodeJS. I have a node back-end that will serve the message board Web API. This API will allow users to post new messages. These messages will get stored in memory on the server in order to persist. The API will also allow us to serve all of the messages that have been added by any user
   
-## Front End
+## Front-End
 
-Angular 6. With Angular, I can make requests to the backend to post a new message using the custom new message component.
+Angular 6. With Angular, I can make requests to the back-end to post a new message using the custom new message component.
