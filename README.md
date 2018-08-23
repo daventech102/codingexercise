@@ -4,7 +4,7 @@ Design a tool to capture the skills for 10K software developers. The skills can 
 
 ## Architecture 
 
-[click here](https://www.dropbox.com/s/y8uz3y7dtol9iie/Screen%20Shot%202018-08-13%20at%205.53.22%20AM.png?dl=0)
+[click here](https://www.dropbox.com/s/qpa177sacgwplx9/employeeSkillSet%20Architecture.png?dl=0)
 
 ## Back-End
 
