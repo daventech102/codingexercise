@@ -1,4 +1,4 @@
-# Coding Exercise
+# Employee SkillSet
 
 Design a tool to capture the skills for 10K software developers. The skills can be for a specific software coding language or functional skills like: project management, scrum master, DBA, etc. Provide a way for UI for enter data and searching the data using various filter / search criteria.
 
